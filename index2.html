@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<head>
+	<title>zemnmez</title>
+	<meta charset="utf8">
+</head>
+<style type="text/css">
+	header { background: url(l.svg) center center/20% black no-repeat ; width: 100%; height: 100%; max-height: 400px ; max-width: 700px ; margin: auto ; text-align: center; font-size: 4rem ; color: transparent ; transition: all 1s ease-in-out }
+	a { color:inherit !important; text-decoration: inherit !important }
+	header:hover { color:white }
+	body, html {  width:100%; height: 100%; padding:0 ; margin: 0 ; font-family: serif }
+	body { display: flex ; align-content: center ; flex-direction: column ; justify-content: center }
+	#bgv { width: 100%; height: 100%; z-index: -1 ; position: absolute ; top:0; left: 0 }
+</style>
+<body>
+	<header><a href=//o9.ms><!--a crafted future--></a></header>
+<iframe id="bgv" src="https://www.youtube.com/embed/Q3mlTIExjmY?autoplay=1&controls=0&loop=1&playlist=Q3mlTIExjmY" frameborder="0" allowfullscreen></iframe>
+<script>
+var bgv = document.getElementById("bgv");
+bgv.src+="&enablejsapi=1&origin=" + encodeURIComponent(location.origin);
+function onYouTubeIframeAPIReady() { var player = new YT.Player('bgv', {
+	events: {onReady: function() { player.mute() } }
+} ) }
+</script>
+<script src="https://www.youtube.com/iframe_api"></script>
+</body>
